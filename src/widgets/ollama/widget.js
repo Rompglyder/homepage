@@ -1,3 +1,4 @@
+import { asJson } from "utils/proxy/api-helpers";
 import genericProxyHandler from "utils/proxy/handlers/generic";
 
 const widget = {
@@ -7,11 +8,11 @@ const widget = {
   mappings: {
     models: {
       endpoint: "tags",
-      map: (data) => ({ models_count: data?.models?.length ?? 0 }),
+      map: (data) => ({ models_count: asJson(data)?.models?.length ?? 0 }),
     },
     running: {
       endpoint: "ps",
-      map: (data) => ({ running_count: data?.models?.length ?? 0 }),
+      map: (data) => ({ running_count: asJson(data)?.models?.length ?? 0 }),
     },
     version: {
       endpoint: "version",
