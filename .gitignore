@@ -46,6 +46,9 @@ next-env.d.ts
 # IDEs
 /.idea/
 
+# Claude Code
+CLAUDE.md
+
 # Zensical documentation
 site*/
 .cache/

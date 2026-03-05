@@ -83,6 +83,7 @@ import nextcloud from "./nextcloud/widget";
 import nextdns from "./nextdns/widget";
 import npm from "./npm/widget";
 import nzbget from "./nzbget/widget";
+import ollama from "./ollama/widget";
 import octoprint from "./octoprint/widget";
 import omada from "./omada/widget";
 import ombi from "./ombi/widget";
@@ -240,6 +241,7 @@ const widgets = {
   npm,
   nzbget,
   octoprint,
+  ollama,
   omada,
   ombi,
   opendtu,

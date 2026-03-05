@@ -669,6 +669,11 @@
         "temp_bed": "Bed temp",
         "job_completion": "Completion"
     },
+    "ollama": {
+        "models": "Models",
+        "running": "Running",
+        "version": "Version"
+    },
     "cloudflared": {
         "origin_ip": "Origin IP",
         "status": "Status"
